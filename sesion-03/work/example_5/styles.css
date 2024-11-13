@@ -1,0 +1,23 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
+
+  .video {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+
+  main {
+    margin-top: 285px;
+    text-align: center;
+  }
