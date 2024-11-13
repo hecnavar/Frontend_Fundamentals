@@ -1,0 +1,10 @@
+.video {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
