@@ -1,0 +1,21 @@
+/* Custom Bootstrap Utilities */
+.margin-1 {
+    margin: 1rem !important;
+  }
+  
+  .padding-1 {
+    padding: 1rem !important;
+  }
+  
+
+  @media (max-width: 768px) {
+    .card {
+      text-align: center;
+    }
+  
+    .card img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
