@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uso de Condicionales en Sass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>¿Qué son los condicionales en Sass?</h1>
+    <p>Descubre cómo usar <code>@if</code> para condicionar estilos.</p>
+  </header>
+
+  <main class="content">
+    <section class="section">
+      <h2>¿Existen los condicionales en Sass?</h2>
+      <p>
+        ¡Sí! Sass incluye condicionales a través de la directiva <code>@if</code>. Esto permite que puedas
+        aplicar estilos dependiendo de una condición lógica.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Ejemplo de uso</h2>
+      <p>Un caso común es cambiar colores dependiendo de una variable:</p>
+      <pre>
+<code>
+$theme: dark;
+
+.button {
+  @if $theme == light {
+    background-color: #fff;
+    color: #000;
+  } @else {
+    background-color: #000;
+    color: #fff;
+  }
+}
+</code>
+      </pre>
+    </section>
+
+    <section class="section">
+      <h2>¿Es recomendado?</h2>
+      <p>
+        Sí, pero con moderación. Es útil cuando tienes configuraciones dinámicas (por ejemplo,
+        temas claros y oscuros). Sin embargo, no abuses de los condicionales, ya que podrían
+        dificultar la legibilidad de tus estilos.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Cuándo usarlos</h2>
+      <ul>
+        <li>Para gestionar temas claros/oscuros.</li>
+        <li>Para definir estilos basados en configuraciones específicas.</li>
+        <li>Cuando necesites estilos reutilizables basados en condiciones.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con ❤️ para aprender sobre Sass.</p>
+  </footer>
+</body>
+</html>
