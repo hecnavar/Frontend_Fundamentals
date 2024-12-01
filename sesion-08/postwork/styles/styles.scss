@@ -1,0 +1,113 @@
+/* Estilos base para los botones */
+.texto-boton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Efecto 1: Deslizamiento */
+  .uno::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #67b54b;
+    transition: 0.3s ease;
+    z-index: 1;
+  }
+  
+  .uno:hover::after {
+    top: 0;
+  }
+  
+  .uno span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Efecto 2: Zoom */
+  .dos:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Efecto 3: Rotación */
+  .tres:hover {
+    transform: rotate(360deg);
+  }
+  
+  /* Efecto 4: Cambio de Color */
+  .cuatro {
+    background-color: #4a90e2;
+  }
+  
+  .cuatro:hover {
+    background-color: #e94e77;
+    color: #fff;
+  }
+  
+  /* Efecto 5: Oscilación */
+  .cinco:hover {
+    animation: oscilacion 0.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes oscilacion {
+    from {
+      transform: translateX(-10px);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  
+  /* Efecto 6: Expansión */
+  .seis:hover {
+    letter-spacing: 5px;
+  }
+  
+  /* Efecto 7: Brillo */
+  .siete {
+    box-shadow: 0 0 10px #67b54b;
+  }
+  
+  .siete:hover {
+    box-shadow: 0 0 20px #67b54b;
+  }
+  
+  /* Efecto 8: Rebote */
+  .ocho:hover {
+    animation: rebote 0.6s ease infinite;
+  }
+  
+  @keyframes rebote {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Efecto 9: Sombras */
+  .nueve:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Efecto 10: Transparencia */
+  .diez {
+    background-color: rgba(2, 81, 87, 0.8);
+  }
+  
+  .diez:hover {
+    background-color: rgba(2, 81, 87, 0.5);
+  }
+  
