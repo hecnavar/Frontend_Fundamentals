@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.grid-text {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-text div {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: cornsilk;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container div {
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.same-columns .grid-container,
+.same-columns .grid-text {
+    grid-template-columns: auto auto auto;
+}
+
+.more-text-columns {
+    grid-template-columns: auto auto auto auto;
+}
+
+.more-card-columns {
+    grid-template-columns: auto auto auto auto;
+}
