@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postwork-session 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #67b54b;
+      color: white;
+      font-family: 'Lobster', cursive;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #67b54b;
+    }
+
+    ul {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Diferencia entre px y rem</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es px?</h2>
+      <p>El `px` (píxel) es una unidad de medida absoluta que se utiliza en CSS para definir el tamaño de elementos. Un `px` representa un solo píxel en la pantalla. Es útil cuando se desea un diseño con tamaños fijos y precisos, pero puede ser menos flexible en pantallas con diferentes resoluciones.</p>
+    </section>
+
+    <section>
+      <h2>¿Qué es rem?</h2>
+      <p>El `rem` (root em) es una unidad de medida relativa en CSS que toma como referencia el tamaño de la fuente raíz del documento, definido generalmente en el elemento `<html>`. Esto permite crear diseños más escalables y adaptables, ya que cambiar el tamaño base afecta a todos los elementos que utilizan `rem`.</p>
+    </section>
+
+    <section>
+      <h2>Diferencias principales</h2>
+      <ul>
+        <li><strong>Escalabilidad:</strong> `rem` permite escalar todos los elementos cambiando solo el tamaño base, mientras que `px` es fijo y no escala automáticamente.</li>
+        <li><strong>Adaptabilidad:</strong> Los diseños con `rem` se adaptan mejor a diferentes dispositivos y configuraciones de accesibilidad, como aumentar el tamaño de texto en el navegador.</li>
+        <li><strong>Precisión:</strong> `px` es ideal para elementos que requieren tamaños exactos y no necesitan adaptarse.</li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="img/matcha.png" alt="Matcha">
+    </section>
+
+  </main>
+
+  <section>
+    <img src="img/Git_exercises.png" alt="Ejercicios Git">
+  </section>
+
+</body>
+</html>
