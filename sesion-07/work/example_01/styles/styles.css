@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #135359;
+  background-color: #979797;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+  color: #025157;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.section-green {
+  background-color: #67b54b;
+  text-align: center;
+  padding: 2rem;
+}
+.section-green h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
+  color: #025157;
+}
+.section-green p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #135359;
+}
+
+.section-dark {
+  background-color: #135359;
+  color: #ffffff;
+  padding: 2rem;
+}
+.section-dark h2 {
+  font-family: "Roboto Slab", serif;
+  color: #67b54b;
+  font-size: 2rem;
+}
+.section-dark p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
